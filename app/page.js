@@ -9,7 +9,7 @@ import Social from "@/component/pages/Social";
 
 export default function Home() {
   return (
-    <main className="bg-gray-50/25 min-h-screen">
+    <main className="bg-gray-50/25 min-h-screen relative">
       <Navbar/>
       <Discover/>
       <Gallery/>

@@ -1,28 +1,49 @@
-import Image from 'next/image'
-import logo from '@/public/asset/Ark.jpg' 
-import { Button } from '../Button'
+"use client";
+import Image from "next/image";
+import logo from "@/public/asset/Ark.jpg";
+import { Button } from "../Button";
+import Link from "next/link"
+import { useEffect, useState } from "react";
 
 export const Navbar = () => {
+  const [scrool, setScrool] = useState(0)
+ 
+    useEffect(()=>{
+      const onScroll = async () => {
+        const height = (window.scrollY)
+        setScrool(height)
+      }
+
+      window.addEventListener('scroll', onScroll)
+
+      return () => {
+        window.removeEventListener('scroll', onScroll)
+      }
+    }, [])
+
   return (
-    <nav className='flex justify-between font-light text-[#a5a4a4] items-center max-w-full bg-white dark:bg-black/25 px-8 py-4'>
-      <section className='w-4/12'>
-        <Image src={logo} alt='logo' className='object-cover w-[50px]'/>
+    <nav className={`flex fixed top-0 w-full z-50 justify-between font-light text-[#a5a4a4] items-center max-w-full ${scrool >= 300? "bg-gray-200/40 backdrop-blur-md":"bg-white"} dark:bg-black/25 px-8 py-4`}>
+      <section className="w-4/12">
+        <Image src={logo} alt="logo" className="object-cover w-[50px]" />
       </section>
-        
-      <section className='w-4/12'>
-        <ul className='flex justify-between'>
-            {
-                ['Home', 'Shop', 'About Us'].map((item) => {
-                    return(
-                        <li key={item} className='cursor-pointer'>{item}</li>
-                    )
-                })
-            }
+
+      <section className="w-4/12">
+        <ul className={`flex justify-between ${scrool >= 300? "text-gray-700":""}`}>
+          {["Home", "Shop", "About Us"].map((item) => {
+            return (
+              <li
+                key={item}
+                className="cursor-pointer hover:text-gray-500 transition-colors"
+              >
+                <Link href={`#${item}`}>{item}</Link>
+              </li>
+            );
+          })}
         </ul>
       </section>
-      <section className='w-4/12 flex justify-end'>
+      <section className="w-4/12 flex justify-end">
         <Button>Contact Us</Button>
       </section>
     </nav>
-  )
-}
+  );
+};
