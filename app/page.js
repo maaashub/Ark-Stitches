@@ -1,3 +1,4 @@
+import { Discover } from "@/component/Discover";
 import About from "@/component/pages/About";
 import Contact from "@/component/pages/Contact";
 import Featured from "@/component/pages/Featured";
@@ -8,8 +9,9 @@ import Social from "@/component/pages/Social";
 
 export default function Home() {
   return (
-    <main className="bg-gray-300 min-h-screen">
+    <main className="bg-gray-50/25 min-h-screen">
       <Navbar/>
+      <Discover/>
       <Gallery/>
       <About/>
       <Featured/>

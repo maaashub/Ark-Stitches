@@ -14,7 +14,7 @@ export const Navbar = () => {
             {
                 ['Home', 'Shop', 'About Us'].map((item) => {
                     return(
-                        <li key={item} className='click'>{item}</li>
+                        <li key={item} className='cursor-pointer'>{item}</li>
                     )
                 })
             }
