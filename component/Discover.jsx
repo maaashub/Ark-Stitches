@@ -1,4 +1,4 @@
-import React from 'react'
+import { LuSendHorizonal } from "react-icons/lu";
 
 export const Discover = () => {
   return (
@@ -17,7 +17,9 @@ export const Discover = () => {
 
         <form className='border-black mt-5 border w-6/12 self-center rounded-xl py-4 px-4 flex justify-between'>
             <input type="text" placeholder='Send us a message' required className='outline-none bg-transparent pr-10'/>
-            <button type='submit'>send</button>
+            <button type='submit'>
+              <LuSendHorizonal  />
+            </button>
         </form>
     </section>
   )
