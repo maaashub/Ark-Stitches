@@ -6,7 +6,7 @@ export const Discover = () => {
         <pre className='text-2xl leading-snug font-bold'>
             Discover Your Signature 
             <br/>
-            <span>Style</span> & <span>Elevate</span> Your
+            <span className='text-green-500/30'>Style</span> & <span className='text-pink-400/30'>Elevate</span> Your
             <br/>
             Wardrobe
         </pre>
