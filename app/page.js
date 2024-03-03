@@ -8,7 +8,7 @@ import Social from "@/component/pages/Social";
 
 export default function Home() {
   return (
-    <main className="bg-gray-300">
+    <main className="bg-gray-300 min-h-screen">
       <Navbar/>
       <Gallery/>
       <About/>
