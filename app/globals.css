@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --text-color-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --text-color-rgb: 255, 255, 255;
+
+  }
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  color: rgb(var(--text-color-rgb));
+  background: rgb(var(--foreground-rgb))
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
