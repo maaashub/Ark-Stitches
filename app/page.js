@@ -1,14 +1,14 @@
-import About from "@/componenet/About";
-import Contact from "@/componenet/Contact";
-import Featured from "@/componenet/Featured";
-import Gallery from "@/componenet/Gallery";
-import { Map } from "@/componenet/Map";
-import { Navbar } from "@/componenet/Navbar";
-import Social from "@/componenet/Social";
+import About from "@/component/pages/About";
+import Contact from "@/component/pages/Contact";
+import Featured from "@/component/pages/Featured";
+import Gallery from "@/component/pages/Gallery";
+import { Map } from "@/component/pages/Map";
+import { Navbar } from "@/component/pages/Navbar";
+import Social from "@/component/pages/Social";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="bg-gray-300">
       <Navbar/>
       <Gallery/>
       <About/>
