@@ -4,7 +4,7 @@ import { Button } from '../Button'
 
 export const Navbar = () => {
   return (
-    <nav className='flex justify-between font-light text-[#a5a4a4] items-center max-w-full bg-white px-8 py-4'>
+    <nav className='flex justify-between font-light text-[#a5a4a4] items-center max-w-full bg-white dark:bg-black/25 px-8 py-4'>
       <section className='w-4/12'>
         <Image src={logo} alt='logo' className='object-cover w-[50px]'/>
       </section>
