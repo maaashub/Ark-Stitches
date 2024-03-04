@@ -18,7 +18,18 @@ const About = () => {
         </div>
 
         <div className="w-full px-4">
+          <div className="lg:hidden flex  items-center gap-5">
           <div className="rounded-full h-12 w-12 overflow-hidden relative">
+            <Image src={logo} alt="logo" fill className="rounded-full" />
+            
+          </div>
+          <h3 className="lg:text-2xl text-xl lg:hidden text-black/75 font-bold my-4 dark:text-gray-200">
+            About Ark Stitches
+          </h3>
+          </div>
+
+
+          <div className="rounded-full h-12 w-12 overflow-hidden hidden lg:inline relative">
             <Image src={logo} alt="logo" fill className="rounded-full" />
             
           </div>
