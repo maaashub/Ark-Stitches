@@ -4,7 +4,7 @@ import { DesignCard } from "../DesignCard";
 
 const Featured = () => {
   return (
-    <section className="mt-12 w-full px-12">
+    <section className="mt-12 w-full px-36">
       <div className="flex flex-col items-center w-full">
         <div className="w-7/12 text-center">
           <h2 className=" font-semibold text-xl my-4 uppercase text-black/80">
