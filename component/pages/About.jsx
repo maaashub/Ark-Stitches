@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className='bg-gray-200/75 dark:bg-black min-h-max py-12 mt-12' id="About Us">
       <div className='px-36 flex justify-between items-center'>
-        <div className="border-[8px] border-gray-50/25 h-auto mr-12 w-4/12 rounded-md">
+        <div className="border-[8px] border-gray-500/25 dark:border-gray-50/25 h-auto mr-12 w-4/12 rounded-md">
           <Image src={pic2} alt="ads" className="object-cover aspect-[1/2]"/>
         </div>
 

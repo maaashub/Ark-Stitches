@@ -1,4 +1,5 @@
 import { Discover } from "@/component/Discover";
+import { Footer } from "@/component/Footer";
 import About from "@/component/pages/About";
 import Contact from "@/component/pages/Contact";
 import Featured from "@/component/pages/Featured";
@@ -18,6 +19,7 @@ export default function Home() {
       <Map/>
       <Contact/>
       <Social/>
+      <Footer/>
     </main>
   );
 }
