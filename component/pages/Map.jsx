@@ -12,7 +12,7 @@ export const Map = () => {
           referrerpolicy="no-referrer-when-downgrade"
         />
       </div>
-      <p className="text-balance text-center mt-5">
+      <p className="text-balance text-center mt-5 dark:text-gray-50/90">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consequuntur dicta distinctio corrupti neque nobis blanditiis ipsam eligendi sit sequi pariatur sunt, magnam eaque labore cupiditate eum ullam dolorem. Repellendus.
       </p>
     </section>

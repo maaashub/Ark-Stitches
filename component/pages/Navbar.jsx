@@ -29,11 +29,13 @@ export const Navbar = () => {
       } dark:bg-black/25 md:py-4 py-2 px-4`}
     >
       <section className="lg:w-4/12">
-        <Image
-          src={logo}
-          alt="logo"
-          className="object-cover md:w-[50px]  w-[40px] rounded-full"
-        />
+        <Link href='#Home' className="w-max">
+          <Image
+            src={logo}
+            alt="logo"
+            className="object-cover md:w-[50px]  w-[40px] rounded-full"
+          />
+        </Link>
       </section>
 
       {/* mobile */}

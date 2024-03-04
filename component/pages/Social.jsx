@@ -32,8 +32,9 @@ const Social = () => {
           </Link>
         </div>
       </div>
-
-      <Image src={logo} alt="logo" className=" lg:w-[80px] w-[100px] h-[80px] lg:h-auto self-center" />
+      <Link href='#Home' className="w-max">
+        <Image src={logo} alt="logo" className=" lg:w-[80px] w-[100px] h-[80px] lg:h-auto self-center" />
+      </Link>
     </section>
   );
 };
