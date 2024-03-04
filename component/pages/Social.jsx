@@ -3,7 +3,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
 import Image from "next/image";
-import logo from "@/public/asset/Ark.jpg";
+import logo from "@/public/asset/ArkTrans.png";
 import Link from "next/link";
 
 const Social = () => {
@@ -33,7 +33,7 @@ const Social = () => {
         </div>
       </div>
 
-      <Image src={logo} alt="logo" className="object-cover w-[50px]" />
+      <Image src={logo} alt="logo" className=" w-[80px]" />
     </section>
   );
 };

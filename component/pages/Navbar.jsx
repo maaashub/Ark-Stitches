@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo from "@/public/asset/Ark.jpg";
+import logo from "@/public/asset/ArkTrans.png";
 import { Button } from "../Button";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -28,7 +28,7 @@ export const Navbar = () => {
       } dark:bg-black/25 px-8 py-4`}
     >
       <section className="w-4/12">
-        <Image src={logo} alt="logo" className="object-cover w-[50px]" />
+        <Image src={logo} alt="logo" className="object-cover w-[50px] rounded-full" />
       </section>
 
       <section className="w-4/12">

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.15256in" height="2.15255in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1054.72 1054.71"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#373435;stroke-width:3.4;stroke-miterlimit:2.61313}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M527.36 1.7c290.31,0 525.66,235.34 525.66,525.66 0,290.31 -235.34,525.66 -525.66,525.66 -290.31,0 -525.66,-235.34 -525.66,-525.66 0,-290.31 235.34,-525.66 525.66,-525.66z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g id="_2462227110832">
+    <image x="-97.67" y="178.64" width="1304.99" height="640.94" xlink:href="ArkCircle_Images\ArkCircle_ImgID1.png"/>
+   </g>
+  </g>
+  <path class="fil0 str0" d="M527.36 1.7c290.31,0 525.66,235.34 525.66,525.66 0,290.31 -235.34,525.66 -525.66,525.66 -290.31,0 -525.66,-235.34 -525.66,-525.66 0,-290.31 235.34,-525.66 525.66,-525.66z"/>
+ </g>
+</svg>

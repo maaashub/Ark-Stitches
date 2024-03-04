@@ -1,6 +1,6 @@
 import Image from "next/image";
 import pic2 from "@/public/asset/8.jpg";
-import logo from "@/public/asset/Ark.jpg";
+import logo from "@/public/asset/ArkTrans.png";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
 
         <div className="w-full">
           <div className="rounded-full h-12 w-12 overflow-hidden relative">
-            <Image src={logo} alt="logo" fill className="object-cover" />
+            <Image src={logo} alt="logo" fill className="rounded-full" />
           </div>
           <h3 className="text-2xl text-black/75 font-bold my-4 dark:text-gray-200">
             About Ark Stitches
