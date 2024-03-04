@@ -6,7 +6,7 @@ export const Discover = () => {
       className="flex w-full flex-col justify-center text-center my-12 mt-24"
       id="Home"
     >
-      <h1 className="xl:text-4xl lg:text-3xl text-2xl leading-snug font-semibold text-black/80 dark:text-gray-200">
+      <h1 className=" text-4xl leading-snug font-semibold lg:font-bold text-black/80 dark:text-gray-200">
         Discover Your Signature
         <br />
         <span className="text-green-500/40">Style</span> &{" "}

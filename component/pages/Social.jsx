@@ -8,11 +8,11 @@ import Link from "next/link";
 
 const Social = () => {
   return (
-    <section className="md:px-20 xl:px-36 my-12 flex justify-between w-full">
+    <section className="md:px-20 xl:px-36 my-12 flex justify-between w-11/12 px-2">
       <div className="flex flex-col gap-3 items-start">
         <h4 className="font-light text-lg">Social Media</h4>
 
-        <div className="flex gap-3 items-center">
+        <div className="flex gap-3 items-center flex-col lg:flex-row">
           <Link href="https://api.whatsapp.com/send?phone=2349160002302&text=Hello%2C%20I%E2%80%99ll%20love%20to%20make%20an%20enquiry" target="blank" className="">
             <button className="rounded-full h-10 w-10 p-2.5 flex justify-center items-center bg-black">
               <IoLogoWhatsapp size={28} color="white" />
@@ -33,7 +33,7 @@ const Social = () => {
         </div>
       </div>
 
-      <Image src={logo} alt="logo" className=" w-[80px]" />
+      <Image src={logo} alt="logo" className=" w-[80px] h-auto aspect-square" />
     </section>
   );
 };

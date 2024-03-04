@@ -28,7 +28,7 @@ export const Navbar = () => {
       } dark:bg-black/25 md:py-4 py-2 px-4`}
     >
       <section className="w-4/12">
-        <Image src={logo} alt="logo" className="object-cover md:w-[50px]  w-[30px] rounded-full" />
+        <Image src={logo} alt="logo" className="object-cover md:w-[50px]  w-[40px] rounded-full" />
       </section>
 
       <section className="w-4/12 hidden md:inline">

@@ -8,7 +8,7 @@ const About = () => {
       className="bg-gray-200/75 dark:bg-black min-h-max py-12 mt-12"
       id="About Us"
     >
-      <div className="md:px-20 xl:px-36 flex lg:flex-row flex-col lg:justify-between justify-center items-center gap-4">
+      <div className="md:px-20 xl:px-36 flex lg:flex-row flex-col lg:justify-between justify-center items-center gap-8 lg:gap-4 ">
         <div className="border-[8px] border-gray-500/25 dark:border-gray-50/25 h-auto mr-12 lg:w-4/12 w-9/12 rounded-md overflow-hidden">
           <Image
             src={pic2}
