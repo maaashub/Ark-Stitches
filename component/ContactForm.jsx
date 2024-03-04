@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 export const ContactForm = () => {
   return (
-    <section className="flex justify-center w-7/12 h-auto px-4 py-5 flex-col mt-12 bg-[#38363694]/30 rounded-2xl">
+    <section className="flex justify-center xl:w-7/12 md:w-9/12 h-auto px-4 py-5 flex-col mt-12 bg-[#38363694]/30 rounded-2xl">
       <form
         action="https://formspree.io/f/xqkrbvgz"
         method="post"

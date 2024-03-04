@@ -23,7 +23,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className={`flex px-[144px] fixed top-0 w-full z-30 justify-between font-light text-[#a5a4a4] items-center max-w-full ${
+      className={`flex xl:px-[144px] md:px-[80px] fixed top-0 w-full z-30 justify-between font-light text-[#a5a4a4] items-center max-w-full ${
         scrool >= 300 ? "bg-gray-200/40 backdrop-blur-md" : "bg-white"
       } dark:bg-black/25 px-8 py-4`}
     >

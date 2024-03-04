@@ -15,7 +15,7 @@ const Gallery = () => {
   // console.log(modal);
   return (
     <section className="mt-12 flex flex-col gap-5 justify-center" id="Shop">
-      <div className="grid grid-cols-5 auto-rows-[300px] gap-3 px-36">
+      <div className="grid grid-cols-5 auto-rows-[300px] gap-3 md:px-20 xl:px-36">
         <div className="relative row-span-2 rounded-xl overflow-hidden cursor-pointer">
           <Image
             src={pic}
