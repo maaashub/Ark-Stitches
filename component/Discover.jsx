@@ -3,7 +3,7 @@ import { WhatsAppForm } from "./WhatsAppForm";
 export const Discover = () => {
 
   return (
-    <section className='flex w-full flex-col justify-center text-center my-12 mt-24' id="Home">
+    <header className='flex w-full flex-col justify-center text-center my-12 mt-24' id="Home">
         <h1 className='text-4xl leading-snug font-semibold text-black/80 dark:text-gray-200'>
             Discover Your Signature 
             <br/>
@@ -16,6 +16,6 @@ export const Discover = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ea praesentium voluptatum quisquam. Eius possimus odio blanditiis illum architecto repellat deserunt cumque totam ipsum.
         </p>
         <WhatsAppForm />
-    </section>
+    </header>
   )
 }

@@ -1,5 +1,6 @@
 import { Discover } from "@/component/Discover";
 import { Footer } from "@/component/Footer";
+import { ImageModal } from "@/component/ImageModal";
 import About from "@/component/pages/About";
 import Contact from "@/component/pages/Contact";
 import Featured from "@/component/pages/Featured";
@@ -10,16 +11,21 @@ import Social from "@/component/pages/Social";
 
 export default function Home() {
   return (
-    <main className="bg-gray-50/25 min-h-screen relative">
-      <Navbar/>
-      <Discover/>
-      <Gallery/>
-      <About/>
-      <Featured/>
-      <Map/>
-      <Contact/>
-      <Social/>
-      <Footer/>
+    <main className="bg-gray-50/25 w-full min-h-screen relative">
+      <section>
+        <Navbar />
+        <Discover />
+        <Gallery />
+        <About />
+        <Featured />
+        <Map />
+        <Contact />
+        <Social />
+        <Footer />
+      </section>
+      
+        <ImageModal />
+    
     </main>
   );
 }
