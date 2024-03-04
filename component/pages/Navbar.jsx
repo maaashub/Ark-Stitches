@@ -29,7 +29,7 @@ export const Navbar = () => {
       } dark:bg-black/25 md:py-4 py-2 px-4`}
     >
       <section className="lg:w-4/12">
-        <Link href='#Home' className="w-max">
+        <Link href="#Home" className="w-max">
           <Image
             src={logo}
             alt="logo"
@@ -45,12 +45,12 @@ export const Navbar = () => {
           onClick={() => setMenu(!menu)}
         >
           <div
-            className={`w-8 h-1 bg-black transition-all delay-150 ${
+            className={`w-8 h-1 bg-black dark:bg-gray-700 transition-all delay-150 ${
               menu ? "rotate-45 -translate-x-1.5" : "rotate-0"
             }`}
           />
           <div
-            className={` bg-black ${
+            className={` bg-black dark:bg-gray-700 ${
               menu
                 ? "-rotate-45 w-8 h-1 -translate-x-1.5 -translate-y-1.5"
                 : "rotate-0 w-5 h-[2px]"
@@ -60,31 +60,39 @@ export const Navbar = () => {
       </section>
 
       {menu && (
-        <section className={`absolute lg:hidden top-14  ${menu? 'right-0' : 'right-[100%]'}`}>
+        <section
+          className={`absolute lg:hidden top-14  ${
+            menu ? "right-0" : "right-[100%]"
+          }`}
+        >
           <div
             className={`${
-              scrool >= 300 ? "transition-all delay-200 rounded-bl-xl bg-gray-200/40 backdrop-blur-md" : "bg-white"
+              scrool >= 300
+                ? "transition-all delay-200 rounded-bl-xl bg-gray-200/40 backdrop-blur-md"
+                : "bg-white"
             } backdrop-blur-md w-[200px] h-[300px]`}
           >
             <ul
-          className={`flex justify-center items-center flex-col gap-1 py-1 ${
-            scrool >= 300 ? "text-gray-700" : ""
-          }`}
-        >
-          {["Home", "About Us", "Contact Us"].map((item) => {
-            return (
-              <li
-                key={item}
-                className="cursor-pointer p-2 hover:bg-pink-200 hover:text-white w-full text-center rounded-lg transition-colors"
-              >
-                <Link href={`#${item}`}>{item}</Link>
-              </li>
-            );
-          })}
-        </ul>
+              className={`flex justify-center items-center flex-col gap-1 py-1 ${
+                scrool >= 300 ? "text-gray-700" : ""
+              }`}
+            >
+              {["Home", "About Us", "Contact Us"].map((item) => {
+                return (
+                  <li
+                    key={item}
+                    className="cursor-pointer p-2 hover:bg-pink-200 hover:text-white w-full text-center rounded-lg transition-colors"
+                    onClick={() => setMenu(!menu)}
+                  >
+                    <Link href={`#${item}`}>{item}</Link>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
         </section>
       )}
+      {/* end of mobile */}
 
       <section className="w-4/12 hidden md:inline">
         <ul
