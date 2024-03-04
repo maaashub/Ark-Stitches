@@ -1,5 +1,9 @@
 import React from "react";
-import pic2 from "@/public/asset/3.jpg";
+import pic1 from "@/public/asset/3.jpg";
+import pic2 from "@/public/asset/9.jpg";
+import pic3 from "@/public/asset/5.jpg";
+import pic4 from "@/public/asset/2.jpg";
+import pic5 from "@/public/asset/4.jpg";
 import { DesignCard } from "../DesignCard";
 
 const Featured = () => {
@@ -11,9 +15,13 @@ const Featured = () => {
             Designs
           </h2>
           <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-            reprehenderit saepe adipisci vitae qui porro ratione sunt doloribus
-            eos? Harum excepturi facilis veniam error sunt.
+          Our
+            knowledgeable and friendly staff are ready to assist you in finding
+            the outfit that suits your style and body type. With out expertise
+            and attention to detail, we ensure that every customer feels
+            comfortable and confident in their selection. ArkStitches also
+            offers customization options to make your dress truly unique and
+            tailored to your preferences. 
           </p>
         </div>
       </div>
@@ -24,28 +32,28 @@ const Featured = () => {
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
             reprehenderit saepe adipisci vitae qui porro ratione sunt doloribus
             eos? Harum excepturi facilis veniam error sunt."
-          img={pic2}
+          img={pic1}
         />
         <DesignCard
-          title="Bridal Wear"
+          title="Ankara wear"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
             reprehenderit saepe adipisci vitae qui porro ratione sunt doloribus
             eos? Harum excepturi facilis veniam error sunt."
           img={pic2}
         />
         <DesignCard
-          title="Bridal Wear"
+          title="Native Wear"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
             reprehenderit saepe adipisci vitae qui porro ratione sunt doloribus
             eos? Harum excepturi facilis veniam error sunt."
-          img={pic2}
+          img={pic3}
         />
         <DesignCard
-          title="Bridal Wear"
+          title="Ready-to-Wear"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
             reprehenderit saepe adipisci vitae qui porro ratione sunt doloribus
             eos? Harum excepturi facilis veniam error sunt."
-          img={pic2}
+          img={pic4}
         />
       </div>
     </section>

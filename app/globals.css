@@ -8,13 +8,13 @@
   --text-color-rgb: 0, 0, 0;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 0, 0, 0;
     --text-color-rgb: 255, 255, 255;
 
   }
-}
+} */
 
 body {
   font-family: "Outfit", sans-serif;
