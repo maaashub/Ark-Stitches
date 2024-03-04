@@ -8,8 +8,8 @@ const About = () => {
       className="bg-gray-200/75 dark:bg-black min-h-max py-12 mt-12"
       id="About Us"
     >
-      <div className="md:px-20 xl:px-36 flex justify-between items-center">
-        <div className="border-[8px] border-gray-500/25 dark:border-gray-50/25 h-auto mr-12 w-4/12 rounded-md overflow-hidden">
+      <div className="md:px-20 xl:px-36 flex lg:flex-row flex-col lg:justify-between justify-center items-center gap-4">
+        <div className="border-[8px] border-gray-500/25 dark:border-gray-50/25 h-auto mr-12 lg:w-4/12 w-9/12 rounded-md overflow-hidden">
           <Image
             src={pic2}
             alt="ads"
@@ -17,14 +17,15 @@ const About = () => {
           />
         </div>
 
-        <div className="w-full">
+        <div className="w-full px-4">
           <div className="rounded-full h-12 w-12 overflow-hidden relative">
             <Image src={logo} alt="logo" fill className="rounded-full" />
+            
           </div>
-          <h3 className="text-2xl text-black/75 font-bold my-4 dark:text-gray-200">
+          <h3 className="text-2xl hidden lg:inline text-black/75 font-bold my-4 dark:text-gray-200">
             About Ark Stitches
           </h3>
-          <p className="text-balance dark:text-gray-400">
+          <p className=" mt-2 lg:mt-0 lg:text-balance text-justify text-sm lg:text-base dark:text-gray-400">
             ArkStitches and Fashion Academy based in Abuja, F.C.T, Nigeria, was
             established in October 2017 with the aim of providing high
             sustainable fashion quality in designing bespoke and ready-to-wear
