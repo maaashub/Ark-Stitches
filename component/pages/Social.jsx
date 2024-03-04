@@ -33,7 +33,7 @@ const Social = () => {
         </div>
       </div>
 
-      <Image src={logo} alt="logo" className=" w-[80px] h-auto aspect-square" />
+      <Image src={logo} alt="logo" className=" lg:w-[80px] w-[100px] h-[80px] lg:h-auto self-center" />
     </section>
   );
 };
