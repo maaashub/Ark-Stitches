@@ -1,8 +1,10 @@
+"use client"
+
 import {createContext, useContext, useState} from 'react'
 
 const context = createContext(null)
 
-const modalContext = ({children}) => {
+export const ModalContext = ({children}) => {
     const [modal, setModal] = useState(false)
 
   return (
