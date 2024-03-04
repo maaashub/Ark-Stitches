@@ -24,7 +24,7 @@ export default function Home() {
         <Footer />
       </section>
       
-        <ImageModal />
+        {/* <ImageModal /> */}
     
     </main>
   );
