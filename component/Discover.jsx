@@ -15,7 +15,7 @@ export const Discover = () => {
         Wardrobe
       </h1>
 
-      <p className="text-balance xl:w-6/12 md:w-9/12 w-11/12 self-center mt-4">
+      <p className="text-balance xl:w-6/12 md:w-10/12 w-11/12 self-center mt-4">
         ArkStitches and Fashion Academy based in Abuja, F.C.T, Nigeria. At
         ArkStitches, we understand the significance of events and as such have
         been able to establish as a premier destination for individuals seeking

@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Social = () => {
   return (
-    <section className="md:px-20 xl:px-36 my-12 flex justify-between w-11/12 px-2">
+    <section className="md:px-8 xl:px-36 my-12 flex justify-between items-center w-11/12 px-2">
       <div className="flex flex-col gap-3 items-start">
         <h4 className="font-light text-lg">Social Media</h4>
 

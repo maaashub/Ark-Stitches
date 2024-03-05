@@ -12,7 +12,6 @@ import Social from "@/component/pages/Social";
 export default function Home() {
   return (
     <main className="bg-gray-50/25 w-full min-h-screen relative">
-      <section>
         <Navbar />
         <Discover />
         <Gallery />
@@ -22,7 +21,6 @@ export default function Home() {
         <Contact />
         <Social />
         <Footer />
-      </section>
       
         {/* <ImageModal /> */}
     

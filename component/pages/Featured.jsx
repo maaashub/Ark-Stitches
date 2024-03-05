@@ -8,7 +8,7 @@ import { DesignCard } from "../DesignCard";
 
 const Featured = () => {
   return (
-    <section className="mt-12 w-full md:px-20 xl:px-36 px-4">
+    <section className="mt-12 w-full md:px-8 xl:px-36 px-4">
       <div className="flex flex-col items-center w-full">
         <div className="w-9/12 text-center">
           <h2 className=" font-semibold text-2xl my-4 uppercase text-black/80">

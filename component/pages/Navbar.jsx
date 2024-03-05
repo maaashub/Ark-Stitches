@@ -24,16 +24,16 @@ export const Navbar = () => {
 
   return (
     <nav
-      className={`flex xl:px-36 md:px-20 fixed top-0 w-full z-30 justify-between font-light text-[#a5a4a4] items-center max-w-full ${
+      className={`flex xl:px-36 md:px-8 fixed top-0 w-full z-30 justify-between font-light text-[#a5a4a4] items-center max-w-full ${
         scrool >= 300 ? "bg-gray-200/40 backdrop-blur-md" : "bg-white"
-      } dark:bg-black/25 md:py-4 py-2 px-4`}
+      } dark:bg-black/25 py-2 px-4`}
     >
       <section className="lg:w-4/12">
         <Link href='#Home' className="w-max">
           <Image
             src={logo}
             alt="logo"
-            className="object-cover md:w-[50px]  w-[40px] rounded-full"
+            className="object-cover lg:w-[50px]  w-[40px] rounded-full"
           />
         </Link>
       </section>
@@ -86,7 +86,7 @@ export const Navbar = () => {
         </section>
       )}
 
-      <section className="w-4/12 hidden md:inline">
+      <section className="w-4/12 hidden lg:inline">
         <ul
           className={`flex justify-between ${
             scrool >= 300 ? "text-gray-700" : ""
@@ -104,7 +104,7 @@ export const Navbar = () => {
           })}
         </ul>
       </section>
-      <section className="w-4/12 justify-end hidden md:flex">
+      <section className="w-4/12 justify-end hidden lg:flex">
         <Link href={`#Contact Us`} prefetch={false}>
           <Button>Contact Us</Button>
         </Link>
