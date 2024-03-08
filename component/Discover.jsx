@@ -1,13 +1,19 @@
 import { WhatsAppForm } from "./WhatsAppForm";
-
+import Under from '@/public/asset/disU.svg'
+import Image from "next/image"
 export const Discover = () => {
   return (
     <header
       className="flex w-full flex-col justify-center text-center my-12 mt-24"
       id="Home"
     >
-      <h1 className=" text-4xl leading-snug font-semibold lg:font-bold text-black/80 dark:text-gray-200">
-        Discover Your Signature
+      <h1 className="text-4xl text-center leading-snug font-semibold lg:font-bold text-black/80 dark:text-gray-200">
+        <span className="relative ">
+          Discover
+          <Image src={Under} alt="under"  className="absolute top-11 left-0 w-[9.2rem] h-max"/>
+          {'  '}
+          <span>Your Signature</span>
+        </span>
         <br />
         <span className="text-green-500/40">Style</span> &{" "}
         <span className="text-pink-400/40">Elevate</span> Your
