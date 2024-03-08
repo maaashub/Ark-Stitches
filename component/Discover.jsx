@@ -1,6 +1,7 @@
 import { WhatsAppForm } from "./WhatsAppForm";
-import Under from '@/public/asset/disU.svg'
-import Image from "next/image"
+import Under from "@/public/asset/disU.svg";
+import Under2 from "@/public/asset/disS.svg";
+import Image from "next/image";
 export const Discover = () => {
   return (
     <header
@@ -10,13 +11,27 @@ export const Discover = () => {
       <h1 className="text-4xl text-center leading-snug font-semibold lg:font-bold text-black/80 dark:text-gray-200">
         <span className="relative ">
           Discover
-          <Image src={Under} alt="under"  className="absolute top-11 left-0 w-[9.2rem] h-max"/>
-          {'  '}
+          <Image
+            src={Under}
+            alt="under"
+            className="absolute top-11 left-0 w-[9.2rem] h-max"
+          />
+          {"  "}
           <span>Your Signature</span>
         </span>
         <br />
-        <span className="text-green-500/40">Style</span> &{" "}
-        <span className="text-pink-400/40">Elevate</span> Your
+        <span className="text-green-500/40">
+          <span className="relative">
+            S
+            <Image
+            src={Under2}
+            alt="under"
+            className="absolute top-11 left-0 w-max h-max"
+          />
+          </span>
+          tyle
+        </span>{" "}
+        & <span className="text-pink-400/40">Elevate</span> Your
         <br />
         Wardrobe
       </h1>
